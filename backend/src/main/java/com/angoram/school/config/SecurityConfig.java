@@ -122,8 +122,7 @@ class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOriginPatterns(List.of(
                 frontendUrl,
-                "https://angoram-school-ud92.vercel.app",
-                "https://angoram-school-ud92-*.vercel.app",
+                "https://*.vercel.app",
                 "http://localhost:*",
                 "http://127.0.0.1:*"
         ));
