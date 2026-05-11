@@ -9,6 +9,6 @@ NIXPACKS_JDK_VERSION = "17"
 
 [deploy]
 startCommand = "java -jar target/*.jar"
-healthcheckPath = "/api/academic-years"
+healthcheckPath = "/health"
 healthcheckTimeout = 300
 restartPolicyType = "on_failure"
