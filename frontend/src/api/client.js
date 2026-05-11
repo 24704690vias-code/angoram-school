@@ -1,7 +1,9 @@
 import axios from 'axios';
 
+// In production (Vercel), set VITE_API_URL=https://your-railway-app.up.railway.app/api
+// In development, the Vite proxy handles /api → localhost:8080
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: import.meta.env.VITE_API_URL || '/api',
 });
 
 api.interceptors.request.use(config => {
