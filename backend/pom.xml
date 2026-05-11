@@ -19,7 +19,7 @@
   <description>Angoram Secondary School — Student Registration System</description>
 
   <properties>
-    <java.version>21</java.version>
+    <java.version>17</java.version>
   </properties>
 
   <dependencies>
