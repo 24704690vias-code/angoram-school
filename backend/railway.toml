@@ -1,0 +1,8 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "java -jar target/*.jar"
+healthcheckPath = "/api/academic-years"
+healthcheckTimeout = 300
+restartPolicyType = "ON_FAILURE"
