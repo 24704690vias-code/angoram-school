@@ -6,7 +6,6 @@ import com.angoram.school.academic.repository.AcademicYearRepository;
 import com.angoram.school.academic.repository.TermRepository;
 import com.angoram.school.assessment.model.Assessment;
 import com.angoram.school.assessment.repository.AssessmentRepository;
-import com.angoram.school.schoolclass.model.SchoolClass;
 import com.angoram.school.schoolclass.repository.SchoolClassRepository;
 import com.angoram.school.student.model.Student;
 import com.angoram.school.student.repository.StudentRepository;

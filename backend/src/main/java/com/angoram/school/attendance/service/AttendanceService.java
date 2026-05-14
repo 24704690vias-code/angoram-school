@@ -15,7 +15,9 @@ import java.util.List;
 public class AttendanceService {
 
     private final AttendanceRepository   repo;
+    @SuppressWarnings("unused")
     private final StudentRepository      studentRepo;
+    @SuppressWarnings("unused")
     private final SchoolClassRepository  classRepo;
     private final AcademicYearRepository yearRepo;
 

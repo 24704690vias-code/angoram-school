@@ -2,7 +2,6 @@ package com.angoram.school.yearend.service;
 
 import com.angoram.school.academic.model.AcademicYear;
 import com.angoram.school.academic.repository.AcademicYearRepository;
-import com.angoram.school.schoolclass.model.SchoolClass;
 import com.angoram.school.schoolclass.repository.SchoolClassRepository;
 import com.angoram.school.student.model.Student;
 import com.angoram.school.student.repository.StudentRepository;
@@ -20,6 +19,7 @@ public class YearEndService {
     private final YearEndResultRepository repo;
     private final StudentRepository       studentRepo;
     private final AcademicYearRepository  yearRepo;
+    @SuppressWarnings("unused")
     private final SchoolClassRepository   classRepo;
 
     public YearEndService(YearEndResultRepository repo,

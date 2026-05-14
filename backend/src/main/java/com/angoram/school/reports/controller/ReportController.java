@@ -22,9 +22,6 @@ public class ReportController {
 
     private final StudentRepository     studentRepo;
     private final FeePaymentRepository  feeRepo;
-    private final AttendanceRepository  attRepo;
-    private final AssessmentRepository  assessRepo;
-    private final AcademicYearRepository yearRepo;
     private final YearEndResultRepository yearEndRepo;
 
     public ReportController(
@@ -36,9 +33,7 @@ public class ReportController {
             YearEndResultRepository yearEndRepo) {
         this.studentRepo  = studentRepo;
         this.feeRepo      = feeRepo;
-        this.attRepo      = attRepo;
-        this.assessRepo   = assessRepo;
-        this.yearRepo     = yearRepo;
+        
         this.yearEndRepo  = yearEndRepo;
     }
 
